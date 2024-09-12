@@ -1,1 +1,1 @@
-Mettre info sur le projet ici
+Projet consistant a créer un site web présentant l'entreprise Thales services numérques.

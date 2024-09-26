@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TD3</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <script type="text/javascript" src="menu.js" defer></script>
+    <link rel="icon" href="" type="image/x-icon">
+    <title>site SAE Thalès</title>
 </head>
-
 <body>
     <header>
-        <div class="menu">
-            <a>Accueil</a>
-            <a>Histoire</a>
-            <a>Coté économique</a>
-            <a>Projets</a>
-        </div>
-
+        <h1>Logo du site ici</h1>
+        <nav>
+            <a href="#">Historique</a>
+            <a href="#">Projets</a>
+            <a href="#">Analyse économique</a>
+        </nav>
     </header>
-</body>
+    <h1>Slogan de Thalès </h1>
+    <div class="carousel">
+        <div class="carousel-container">
+            <img src="https://via.placeholder.com/800x400/ff7f7f/333333?text=Image+1" alt="Image 1" class="carousel-slide">
+            <img src="https://via.placeholder.com/800x400/7f7fff/333333?text=Image+2" alt="Image 2" class="carousel-slide">
+            <img src="https://via.placeholder.com/800x400/7fff7f/333333?text=Image+3" alt="Image 3" class="carousel-slide">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <p> court texte presentant l'entreprise, le but du site ... </p>
 
+    <footer>
+        <p>Crédits</p>
+        <p>Site de l'entreprise</p>
+    </footer>
+
+</body>
 </html>

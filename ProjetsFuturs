@@ -9,9 +9,9 @@
 </head>
 <body>
     <nav>
-        <a href="#">Accueil</a>
-        <a href="#">Histoire</a>
-        <a href="#">Analyse Economique</a>
+        <a href="index.html">Accueil</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="Economie.html">Analyse Economique</a>
     </nav>
 </body>
 </html>

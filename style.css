@@ -15,6 +15,15 @@ header {
     width: 100%;
 }
 
+footer {
+    background-color: #45aaf2;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .dessous {
     display: flex;
     flex-direction: column;
@@ -51,6 +60,83 @@ header {
 .menu a:hover {
     background-color: #1B1464;
     color: white;
+}
+
+.vide {
+    height: 80px;
+    width: 100%;
+}
+
+.background {
+    /* background-image: url ("https: //www.arte-charpentier.com/wp-content/uploads/2021/09/image-principale-5.jpg"); */
+    background-color: #1B1464;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0%;
+}
+
+.dispo_txt_img {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+.description {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.titre {
+    margin-bottom: 2vw;
+    margin-left: 10px;
+    font-size: 4vw;
+
+}
+
+.txt {
+    font-size: 1.5vw;
+    width: 500px;
+}
+
+.illustration {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+
+}
+
+.eco_pdf {
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.eco_pdf:hover {
+    background-color: #45aaf2;
+}
+
+.download {
+    height: 50px;
+    width: 50px;
+}
+
+.txt_download {
+    color: black;
+    display: flex;
+    text-align: center;
 }
 
 /* ECONOMIE */

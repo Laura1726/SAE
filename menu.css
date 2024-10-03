@@ -6,8 +6,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-size: 100%;
-    background-image: url('https://img.freepik.com/free-vector/gradient-blue-background_23-2149333533.jpg?t=st=1727364977~exp=1727368577~hmac=536eff534124a3853dde5b4f676e41b0cd09dba608364f30eee9fa0c3baef491&w=1380');
-}
+    background-image:../Favicon/imagebackground.jpg
 
 header {
     background-color: rgba(0, 0, 0, 0.3);

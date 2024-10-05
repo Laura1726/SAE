@@ -5,8 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-size: 100%;
-    background-image:../Favicon/imagebackground.jpg
+    background-image: url(img/imagebackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 header {
     background-color: rgba(0, 0, 0, 0.3);

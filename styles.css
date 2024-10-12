@@ -1,21 +1,31 @@
 /* ECONOMIE */
 
 body {
+    --white: #E8F5FF;
+    --black: black;
+    --header_footer_background: #0D47A1;
+    --page_background: #E8F5FF;
+    --text_background: #E8F5FF;
+    /*rgb(155, 155, 155); */
+    --title_color: #0D47A1;
+    --text_color: #000000;
+    --button_color: #1E88E5;
+    --link_color: #356fe1;
+
+
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 header {
-    background-color: #4988fd;
-    height: 100px;
-    border: 10px outset rgb(8, 0, 122);
-    border-radius: 20px;
-    margin : 15px;
+    background-color: var(--header_footer_background);
+    height: 60px;
+    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 97%;
+    width: 100%;
 }
 
 
@@ -26,16 +36,15 @@ header {
 
 
 .logo_site {
-    width: 50px;
-    margin: 10px;
+    width: 40px;
 }
 
 
 .nom_page {
-    font-size: 15px;
-    margin-left: 9px;
-    margin-top: 0px;
-    color: white;
+    font-size: 10px;
+    margin-left: 3px;
+    margin-top: 5px;
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -51,19 +60,21 @@ header {
 
 
 .menu button {
+    background-color: var(--button_color);
     font-weight: bold;
     /* texte en gras */
     border: 1px solid black;
     line-height: 250%;
     border-radius: 100px;
     /* boutons arrondis */
+    color: var(--white);
     transition: background-color 0.3s ease;
 }
 
 
 .menu button:hover {
-    background-color: #1B1464;
-    color: white;
+    background-color: var(--page_background);
+    color: var(--black);
 }
 
 
@@ -73,11 +84,8 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 100px;
-    background-image: url(img/imagebackground.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-image: url ("https: //www.arte-charpentier.com/wp-content/uploads/2021/09/image-principale-5.jpg"); */
+    background-color: var(--page_background);
 }
 
 
@@ -90,9 +98,9 @@ header {
 .dispo_txt_img {
     display: flex;
     justify-content: space-evenly;
-    color: white;
+    color: var(--text_color);
     width: 100%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     align-items: center;
 
 }
@@ -100,6 +108,7 @@ header {
 
 .accroche {
     font-size: 5vw;
+    color: var(--title_color);
 }
 
 
@@ -113,14 +122,13 @@ section .dessous {
     margin-bottom: 2vw;
     margin-left: 3.5vw;
     font-size: 3.5vw;
+    color: var(--title_color);
 }
 
 
 .background {
     margin: 4%;
-    background-color: gray;
-    padding: 15px;
-    border-radius: 30px;
+    background-color: var(--text_background);
 }
 
 
@@ -144,6 +152,7 @@ section .dessous {
 
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 
@@ -152,20 +161,28 @@ section .dessous {
     line-height: 200%;
     border-radius: 20px;
     padding: 0px 10px;
+    background-color: var(--button_color);
+    color: var(--page_background);
     transition: background-color 0.3s ease;
 
 }
-
-
-.button_pdf:hover {
-    background-color: #45aaf2;
-}
-
 
 .download {
     height: 30px;
     width: 30px;
 }
+
+.button_pdf:hover {
+    background-color: var(--page_background);
+    color: var(--black);
+
+    img {
+        opacity: 1;
+        background-image: url('download_hover.png');
+    }
+
+}
+
 
 
 .txt_download {
@@ -178,16 +195,16 @@ section .dessous {
 
 
 footer {
-    background-color: #4988fd;
+    background-color: var(--header_footer_background);
     height: 50px;
-    border: 10px outset rgb(8, 0, 122);
-    border-radius: 20px;
+    border: 1px solid black;
     display: flex;
     justify-content: space-between;
-    width: 97%;
-    color: white;
-    font-size : 15px;
-    font-weight: bold;
+    width: 100%;
+}
+
+.copyright {
+    color: var(--page_background);
 }
 
 footer button {
@@ -198,59 +215,3 @@ footer button {
 
 
 /* ECONOMIE */
-
-/* PROJETS FUTURS */
-
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: auto; 
-}
-
-.box {
-    background-color: #1E88E5;
-    
-    padding: 20px;
-    margin: 10px;
-    font-size: 14px;
-    text-align: center;
-    width: 30%;
-}
-
-.sec{
-    display: flex;
-    flex-direction: column;
-    padding-top: 10%;
-}
-
-#t1{
-    text-align: center;
-    font-family: 'Audiowide',sans-serif;
-    font-size: 55px;
-    color: #0D47A1;
-}
-
-#t3{
-    font-family: 'bai jamjuree', sans-serif;
-    color:#356FE1;
-    text-align: center;
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.para{
-    font-family: 'afacad',sans-serif;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-}
-
-.imag{
-    width: 50%;
-}
-
-/* PROJETS FUTURS */

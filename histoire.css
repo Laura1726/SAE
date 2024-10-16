@@ -28,7 +28,7 @@ header {
 }
 
 
-.dessous {
+.entete {
     display: flex;
     flex-direction: column;
 }
@@ -90,20 +90,13 @@ header {
 }
 
 
-.dispo_txt_img {
+.ligne {
     display: flex;
     justify-content: space-evenly;
     color: var(--text_color);
     width: 100%;
     margin-bottom: 10%;
     align-items: center;
-
-}
-
-
-.accroche {
-    font-size: 5vw;
-    color: var(--title_color);
 }
 
 
@@ -120,18 +113,27 @@ section .dessous {
     color: var(--title_color);
 }
 
+.titre, .accroche {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 36px;
+}
 
-.background {
+
+.grille {
     margin: 4%;
     background-color: var(--text_background);
 }
 
 
 .txt {
-    font-size: 1.5vw;
-    text-indent: 2.5vw;
+    font-family: 'Afacad', sans-serif;
+    font-size: 18px;
 }
 
+.lien {
+    font-weight: bold;
+    color: blue;
+}
 
 .illustration {
     height: 100%;
@@ -141,51 +143,6 @@ section .dessous {
 
 }
 
-
-.eco_pdf {
-
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-
-.button_pdf {
-    border: 1px solid black;
-    line-height: 200%;
-    border-radius: 20px;
-    padding: 0px 10px;
-    background-color: var(--button_color);
-    color: var(--page_background);
-    transition: background-color 0.3s ease;
-
-}
-
-.download {
-    height: 30px;
-    width: 30px;
-}
-
-.button_pdf:hover {
-    background-color: var(--page_background);
-    color: var(--black);
-
-    img {
-        opacity: 1;
-        background-image: url('download_hover.png');
-    }
-
-}
-
-
-
-.txt_download {
-    font-size: 1vw;
-    font-weight: bold;
-    display: flex;
-    text-align: center;
-
-}
 
 
 footer {

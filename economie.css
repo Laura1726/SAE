@@ -11,9 +11,10 @@ body {
     --text_color: #000000;
     --button_color: #1E88E5;
     --link_color: #356fe1;
-    --title1_style: Audiowide;
-    --title2_style: Bai jamjuree;
-    --text_style: Afacad;
+    --title_style: 'Bai jamjuree', sans-serif;
+    --title_size: 36px;
+    --text_style: 'Afacad', sans-serif;
+    --texte_size: 18px;
 
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,7 +44,7 @@ header {
 
 
 .nom_page {
-    font-family: var(--title1_style);
+    font-family: var(--title_style);
     font-size: 10px;
     margin-left: 3px;
     margin-top: 5px;
@@ -63,7 +64,7 @@ header {
 
 
 .menu button {
-    font-family: var(--title1_style);
+    font-family: var(--title_style);
     background-color: var(--button_color);
     font-weight: bold;
     /* texte en gras */
@@ -111,8 +112,9 @@ header {
 
 
 .accroche {
-    font-family: var(--title1_style);
-    font-size: 5vw;
+    font-family: var(--title_style);
+    font-size: var(--title_size);
+    /* font-size: 5vw; */
     color: var(--title_color);
 }
 
@@ -124,10 +126,11 @@ section .dessous {
 
 
 .titre {
-    font-family: var(--title2_style);
+    font-family: var(--title_style);
+    font-size: var(--title_size);
     margin-bottom: 2vw;
     margin-left: 3.5vw;
-    font-size: 3.5vw;
+    /* font-size: 3.5vw; */
     color: var(--title_color);
 }
 
@@ -140,7 +143,8 @@ section .dessous {
 
 .txt {
     font-family: var(--text_style);
-    font-size: 1.5vw;
+    font-size: var(--text_size);
+    /* font-size: 1.5vw; */
     text-indent: 2.5vw;
     /* pour decaler le debut du paragraphe */
 }
@@ -193,7 +197,7 @@ section .dessous {
 
 
 .txt_download {
-    font-family: var(--title1_style);
+    font-family: var(--title_style);
     font-size: 1vw;
     font-weight: bold;
     display: flex;
@@ -213,6 +217,8 @@ footer {
 
 .copyright {
     color: var(--page_background);
+    font-family: var(--text_style);
+    font-size: var(--text_size);
 }
 
 footer button {

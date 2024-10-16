@@ -1,0 +1,210 @@
+/* HISTOIRE */
+
+body {
+    --white: #E8F5FF;
+    --black: black;
+    --header_footer_background: #0D47A1;
+    --page_background: #E8F5FF;
+    --text_background: #E8F5FF;
+    --title_color: #0D47A1;
+    --text_color: #000000;
+    --button_color: #1E88E5;
+    --link_color: #356fe1;
+
+
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: var(--header_footer_background);
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+
+.dessous {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo_site {
+    width: 40px;
+}
+
+
+.nom_page {
+    font-size: 10px;
+    margin-left: 3px;
+    margin-top: 5px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+
+.menu button {
+    background-color: var(--button_color);
+    font-weight: bold;
+    border: 1px solid black;
+    line-height: 250%;
+    border-radius: 100px;
+    color: var(--white);
+    transition: background-color 0.3s ease;
+}
+
+
+.menu button:hover {
+    background-color: var(--page_background);
+    color: var(--black);
+}
+
+
+.description {
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--page_background);
+}
+
+
+.vide {
+    height: 80px;
+    width: 100%;
+}
+
+
+.dispo_txt_img {
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--text_color);
+    width: 100%;
+    margin-bottom: 10%;
+    align-items: center;
+
+}
+
+
+.accroche {
+    font-size: 5vw;
+    color: var(--title_color);
+}
+
+
+section .dessous {
+    height: 100%;
+    width: 45%;
+}
+
+
+.titre {
+    margin-bottom: 2vw;
+    margin-left: 3.5vw;
+    font-size: 3.5vw;
+    color: var(--title_color);
+}
+
+
+.background {
+    margin: 4%;
+    background-color: var(--text_background);
+}
+
+
+.txt {
+    font-size: 1.5vw;
+    text-indent: 2.5vw;
+}
+
+
+.illustration {
+    height: 100%;
+    width: 250px;
+    object-fit: cover;
+    border: 1px solid black;
+
+}
+
+
+.eco_pdf {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.button_pdf {
+    border: 1px solid black;
+    line-height: 200%;
+    border-radius: 20px;
+    padding: 0px 10px;
+    background-color: var(--button_color);
+    color: var(--page_background);
+    transition: background-color 0.3s ease;
+
+}
+
+.download {
+    height: 30px;
+    width: 30px;
+}
+
+.button_pdf:hover {
+    background-color: var(--page_background);
+    color: var(--black);
+
+    img {
+        opacity: 1;
+        background-image: url('download_hover.png');
+    }
+
+}
+
+
+
+.txt_download {
+    font-size: 1vw;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: var(--header_footer_background);
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.copyright {
+    color: var(--page_background);
+}
+
+footer button {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HISTOIRE */

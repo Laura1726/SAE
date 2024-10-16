@@ -1,10 +1,16 @@
 /* PROJETS FUTURS */
+
+html, body {
+    height: 100%;
+    background-color: #E8F5FF;
+}
+
 .flex-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    width: auto;
+    /*width: auto;*/
 }
 
 .box {
@@ -19,10 +25,6 @@
 
 header{
     background-color: #0D47A1;
-}
-
-section{
-    background-color: #E8F5FF;
 }
 
 footer{

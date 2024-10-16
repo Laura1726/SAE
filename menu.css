@@ -12,18 +12,26 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.3);
+    
     color: white;
-    padding: 10px;
-    text-align: center;
-    border-bottom: solid;
+    padding: 10px; 
 }
 
-header nav  {
-    padding: 0;
+.navdiv{
+    height: 80px;
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    background-color: rgba(0, 0, 0, 0.3);
+    border:solid;
+    border-radius: 10px;
+}
+.navdiv > nav {
     display: flex;
     justify-content: center;
     gap: 20px;
+
+    
 }
 
 a {
@@ -97,4 +105,9 @@ body>p{
     position:absolute;
     margin-left:1400px;
     bottom:600px;
+}
+
+
+.logo{
+    height:80px;
 }

@@ -9,12 +9,13 @@ body {
 }
 
 
-
 header {
     height: 160px;
     color: rgb(0, 0, 0);
     background-color: #0D47A1;
     border-bottom: 3px solid black;
+    display: flex;
+    justify-content: space-between;
 }
 
 header > h2 {
@@ -57,8 +58,7 @@ a {
 
 .carousel {
     position: absolute;
-    width: 900px;
-    height: 500px;
+    width: 50vw;
     margin-top: 250px;  
     overflow: hidden;
     border: 2px solid #000000;
@@ -130,19 +130,20 @@ button:hover {
 }
 
 footer {
-    margin-top: auto;  
+    text-align: center;
+    width: 100%; 
     background-color:  #0D47A1;
     color: rgb(253, 253, 253);
     padding: 10px;
-    text-align: center;
     border-top: solid 3px;
     border-top-color: black;
+    margin-top: 700px;
 }
 
 body > h1 {
     color: rgb(0, 0, 0);
     font-size: 50px;
-    margin-left: 1100px;
+    margin-left: 65vw;
     font-style: italic;
     position: absolute;
     margin-top: 200px;
@@ -151,15 +152,15 @@ body > h1 {
 body > h4 {
     color: rgb(92, 92, 92);
     font-size: 20px;
-    margin-left: 1600px;
+    margin-left: 80vw;
     position: absolute;
-    margin-top: 320px;
+    margin-top: 400px;
 }
 
 body > p {
     color: rgb(0, 0, 0);
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 65vw;
     margin-top: 450px;
     font-size: 18px;
     padding: 5px;

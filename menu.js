@@ -16,8 +16,4 @@ function showSlide(index) {
 function moveSlide(step) {
     showSlide(currentIndex + step);
 }
-document.addEventListener("DOMContentLoaded", function() {
-        document.body.style.transform = "scale(0.8)";
-        document.body.style.transformOrigin = "0 0"; 
-        document.body.style.width = "125%"; 
-    });
+

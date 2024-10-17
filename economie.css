@@ -141,8 +141,6 @@ section .dessous {
 .titre {
     font-family: var(--title_style);
     font-size: var(--title_size);
-    margin-bottom: 2vw;
-    margin-left: 3.5vw;
     /* font-size: 3.5vw; */
     color: var(--title_color);
 }
@@ -160,12 +158,19 @@ section .dessous {
     /* font-size: 1.5vw; */
     text-indent: 2.5vw;
     /* pour decaler le debut du paragraphe */
+    margin: 0px;
+}
+
+.txt_suite {
+    font-family: var(--text_style);
+    font-size: var(--text_size);
+    margin: 0px;
 }
 
 
 .illustration {
     height: 100%;
-    width: 250px;
+    width: 40%;
     object-fit: cover;
     border: 1px solid black;
 

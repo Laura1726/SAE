@@ -48,16 +48,7 @@ header > img {
     margin-top: auto;
     margin-bottom: auto;
 }
-.navdiv> nav > button{
-    margin-top: 10px;
-    background-color: var(--button_color);
-    font-weight: bold;
-    border: 1px solid black;
-    line-height: 300%;
-    border-radius: 100px;
-    color: var(--white);
-    transition: background-color 0.3s ease;
-}
+
 a {
     color: white;
     text-decoration: none;

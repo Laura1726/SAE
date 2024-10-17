@@ -15,11 +15,6 @@ header {
     border-bottom: 3px solid black;
 }
 
-header > h2 {
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 60px;
-}
 
 header > img {
     position: absolute;

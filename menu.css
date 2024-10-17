@@ -4,18 +4,27 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    background-image: url(img/imagebackground.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  
+    min-height: 100vh; 
+    background-color: #E8F5FF;
 }
 
 header {
-    
-    color: white;
-    padding: 10px; 
+    height: 160px;
+    color: rgb(0, 0, 0);
+    background-color: #0D47A1;
+    border-bottom: 3px solid black;
+}
+
+header > h2 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+header > img {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
 .navdiv {
@@ -23,28 +32,22 @@ header {
     width: 70%;
     display: flex;
     justify-content: center; 
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color:  #0D47A1;
     border: solid;
+    border-color: black;
     border-radius: 10px;
     position: absolute; 
     right: 0; 
     top: 10px; 
 }
 
-
-
 .navdiv > nav {
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin-top:auto;
-    margin-bottom:auto;
-    
-    
-
-    
+    margin-top: auto;
+    margin-bottom: auto;
 }
-
 
 a {
     color: white;
@@ -52,35 +55,66 @@ a {
     font-size: 30px;
 }
 
-
 .carousel {
-    position: relative;
-    width: 80%;
-    max-width: 800px;
-    margin: 40px auto;  
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    margin-top: 250px;  
     overflow: hidden;
-    border: 2px solid #ffffff;
+    border: 2px solid #000000;
     border-radius: 10px;
+    margin-left: 130px;
 }
 
 .carousel-container {
-    display: flex;
     transition: transform 0.5s ease-in-out;
+    height: 100%;
+    display: flex;
 }
 
 .carousel-slide {
+    position: relative;
     min-width: 100%;
-    
+    height: 100%; 
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hovertexte, .hovertexte2, .hovertexte3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: #000000;
+    border-radius: 10px;
+    padding:10px;
+    width: 500px;
+}
+
+.carousel-slide:hover .hovertexte,
+.carousel-slide:hover .hovertexte2,
+.carousel-slide:hover .hovertexte3 {
+    opacity: 1;
 }
 
 button {
     position: absolute;
     top: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0);
     border: none;
     color: white;
     font-size: 24px;
     padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
 }
 
 button:hover {
@@ -97,29 +131,40 @@ button:hover {
 
 footer {
     margin-top: auto;  
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
+    background-color:  #0D47A1;
+    color: rgb(253, 253, 253);
     padding: 10px;
     text-align: center;
-    border-top: solid;
+    border-top: solid 3px;
+    border-top-color: black;
 }
 
-
-body>h1{
-    color:white;
-    font-size:50px;
-    margin-left:1400px;
+body > h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-left: 1100px;
+    font-style: italic;
+    position: absolute;
+    margin-top: 200px;
 }
 
-
-body>p{
-    color:white;
-    position:absolute;
-    margin-left:1400px;
-    bottom:600px;
+body > h4 {
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+    margin-left: 1600px;
+    position: absolute;
+    margin-top: 320px;
 }
 
+body > p {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 450px;
+    font-size: 18px;
+    padding: 5px;
+}
 
-.logo{
-    height:80px;
+.logo {
+    height: 80px;
 }

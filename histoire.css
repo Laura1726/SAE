@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: var(--header_footer_background);
-    height: 60px;
+    height: 70px;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
@@ -28,6 +28,13 @@ header {
 }
 
 
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
 .entete {
     display: flex;
     flex-direction: column;
@@ -35,14 +42,14 @@ header {
 
 
 .logo_site {
-    width: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 
 .nom_page {
-    font-size: 10px;
-    margin-left: 3px;
-    margin-top: 5px;
+    margin-left: 6px;
+    font-size: 20px;
     color: var(--white);
     font-weight: bold;
 }
@@ -58,10 +65,11 @@ header {
 
 
 .menu button {
+    margin-top: 10px;
     background-color: var(--button_color);
     font-weight: bold;
     border: 1px solid black;
-    line-height: 250%;
+    line-height: 300%;
     border-radius: 100px;
     color: var(--white);
     transition: background-color 0.3s ease;
@@ -144,22 +152,73 @@ section .dessous {
 
 .lien {
     font-weight: bold;
-    color: blue;
+    color: rgb(30, 70, 189);
+    text-decoration: none;
+}
+
+.pop-up{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px); 
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+}
+
+.pop-up.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0); 
+}
+
+.pop-up.hide {
+    visibility: visible;
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
 }
 
 .illustration {
     height: 100%;
     width: 250px;
     object-fit: cover;
-    border: 1px solid black;
+}
 
+.illustration2 {
+    height: 100%;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+.image-source {
+    margin-left: 10px;
+    font-size: 15px;
+    color: var(--text_color);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+}
+
+.illustration2:hover + .image-source {
+    opacity: 1; 
+}
+
+
+.visible {
+    opacity: 1;
 }
 
 
 
 footer {
     background-color: var(--header_footer_background);
-    height: 50px;
+    height: 60px;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
@@ -171,12 +230,14 @@ footer {
 }
 
 footer button {
-    font-size: 10px;
+    margin-top: 10px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
 }
 
 .credit {
+    margin-top: 10px;   
     font-size: 18px;
     color: var(--white);
 }

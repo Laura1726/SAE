@@ -130,7 +130,7 @@ button:hover {
 }
 
 footer {
-    margin-top: auto;  
+    margin-top: 100vh;  
     background-color:  #0D47A1;
     color: rgb(253, 253, 253);
     padding: 10px;

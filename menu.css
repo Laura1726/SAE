@@ -130,12 +130,8 @@ button:hover {
 }
 
 footer {
-<<<<<<< HEAD
     text-align: center;
     width: 100%; 
-=======
-    margin-top: 800px;  
->>>>>>> 5a739f70c9efc41ae3580bdde91a8edacb976138
     background-color:  #0D47A1;
     color: rgb(253, 253, 253);
     padding: 10px;
@@ -146,8 +142,9 @@ footer {
 
 body > h1 {
     color: rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: 45px;
     margin-left: 65vw;
+    margin-right: 20px;
     font-style: italic;
     position: absolute;
     margin-top: 200px;
@@ -157,15 +154,10 @@ body > h1 {
 body > h4 {
     color: rgb(92, 92, 92);
     font-size: 20px;
-<<<<<<< HEAD
     margin-left: 80vw;
+    margin-right: 20px;
     position: absolute;
     margin-top: 400px;
-=======
-    margin-left: 1400px;
-    position: absolute;
-    margin-top: 380px;
->>>>>>> 5a739f70c9efc41ae3580bdde91a8edacb976138
 }
 
 body > p {

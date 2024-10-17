@@ -228,7 +228,7 @@ section .dessous {
 
 footer {
     background-color: var(--header_footer_background);
-    height: 50px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
     width: 100%;

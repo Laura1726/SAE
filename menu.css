@@ -137,6 +137,7 @@ footer {
     text-align: center;
     border-top: solid 3px;
     border-top-color: black;
+    bottom: 0;
 }
 
 body > h1 {

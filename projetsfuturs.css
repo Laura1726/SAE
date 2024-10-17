@@ -62,7 +62,7 @@ html, body {
 
 header {
     background-color: var(--header_footer_background);
-    height: 60px;
+    height: 70px;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;

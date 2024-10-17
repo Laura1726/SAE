@@ -146,6 +146,7 @@ body > h1 {
     font-style: italic;
     position: absolute;
     margin-top: 200px;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 body > h4 {
@@ -163,6 +164,8 @@ body > p {
     margin-top: 450px;
     font-size: 18px;
     padding: 5px;
+    font-family: 'Afacad', sans-serif;
+    
 }
 
 .logo {

@@ -6,6 +6,11 @@ body {
     flex-direction: column;
     min-height: 100vh; 
     background-color: #E8F5FF;
+    transform: scale(0.75);
+    transform-origin: top left;
+    width: 133.33%; 
+    overflow: hidden; 
+        
 }
 
 header {

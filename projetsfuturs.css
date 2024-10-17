@@ -1,15 +1,107 @@
 /****PROJETS FUTURS ****/
-
-
 html, body {
     height: 100%;
     background-color: #E8F5FF;
+    --white: #E8F5FF;
+    --black: black;
+    --header_footer_background: #0D47A1;
+    --page_background: #E8F5FF;
+    --text_background: #E8F5FF;
+    --title_color: #0D47A1;
+    --text_color: #000000;
+    --button_color: #1E88E5;
+    --link_color: #356fe1;
+
+
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.dessous {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_site {
+    width: 40px;
+}
+
+.nom_page {
+    font-size: 10px;
+    margin-left: 3px;
+    margin-top: 5px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+}
+
+.menu button {
+    background-color: var(--button_color);
+    font-weight: bold;
+    border: 1px solid black;
+    line-height: 250%;
+    border-radius: 100px;
+    color: var(--white);
+    transition: background-color 0.3s ease;
+}
+
+
+.menu button:hover {
+    background-color: var(--page_background);
+    color: var(--black);
+}
+
+
+header {
+    background-color: var(--header_footer_background);
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+footer {
+    background-color: var(--header_footer_background);
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main {
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+
+.copyright {
+    color: var(--page_background);
+}
+
+footer button {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 section{
     padding-bottom: 20px;
 }
 
+/* Style des titres */
 #t1{
     text-align: center;
     font-family: 'bai jamjuree',sans-serif;
@@ -28,10 +120,12 @@ section{
     text-align: center;
 }
 
+/* Mots en gras */
 .bold{
     font-weight: bold;
 }
 
+/* Style des paragraphes */
 .para{
     font-family: 'afacad',sans-serif;
     font-size: 18px;
@@ -51,16 +145,16 @@ input[type="checkbox"] {
 
 .image-container {
     display: flex;
-    justify-content: space-around; /* Espacer les images de façon égale */
-    align-items: flex-start; /* Aligner les images en haut */
+    justify-content: space-around; 
+    align-items: flex-start;
 }
 
   /* Conteneur pour chaque image et son texte */
 .image-block {
     display: flex;
-    flex-direction: column; /* Mettre l'image au-dessus et le texte en dessous */
+    flex-direction: column; 
     align-items: center;
-    margin: 0 20px; /* Espacement horizontal entre les images*/
+    margin: 0 20px;
 }
 
 
@@ -69,7 +163,7 @@ input[type="checkbox"] {
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
-    align-items: center; /* Aligne l'image et le texte verticalement */
+    align-items: center; 
   }
 
 /* Style de l'image qui sert de bouton */
@@ -87,14 +181,14 @@ label img:hover {
     opacity: 0.4;
 }
 
-/* Texte caché par défaut */
+/* Texte caché */
 .message {
     display: none;
     font-size: 18px;
     color: #333;
 }
 
-  /* Afficher le texte lorsque la case est cochée */
+  /* Afficher le texte quand la case est cochée */
   input[type="checkbox"]:checked ~ .message {
     display: block;
 }

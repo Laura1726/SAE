@@ -99,6 +99,16 @@ header {
     align-items: center;
 }
 
+.haut_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text_color);
+    width: 100%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
 
 section .dessous {
     height: 100%;
@@ -116,6 +126,8 @@ section .dessous {
 .titre, .accroche {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -162,6 +174,11 @@ footer button {
     font-size: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.credit {
+    font-size: 18px;
+    color: var(--white);
 }
 
 /* HISTOIRE */

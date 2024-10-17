@@ -138,6 +138,7 @@ footer {
     border-top: solid 3px;
     border-top-color: black;
     bottom: 0;
+    position: fixed;
 }
 
 body > h1 {

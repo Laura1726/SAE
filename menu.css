@@ -130,8 +130,12 @@ button:hover {
 }
 
 footer {
+<<<<<<< HEAD
     text-align: center;
     width: 100%; 
+=======
+    margin-top: 800px;  
+>>>>>>> 5a739f70c9efc41ae3580bdde91a8edacb976138
     background-color:  #0D47A1;
     color: rgb(253, 253, 253);
     padding: 10px;
@@ -147,14 +151,21 @@ body > h1 {
     font-style: italic;
     position: absolute;
     margin-top: 200px;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 body > h4 {
     color: rgb(92, 92, 92);
     font-size: 20px;
+<<<<<<< HEAD
     margin-left: 80vw;
     position: absolute;
     margin-top: 400px;
+=======
+    margin-left: 1400px;
+    position: absolute;
+    margin-top: 380px;
+>>>>>>> 5a739f70c9efc41ae3580bdde91a8edacb976138
 }
 
 body > p {
@@ -164,6 +175,8 @@ body > p {
     margin-top: 450px;
     font-size: 18px;
     padding: 5px;
+    font-family: 'Afacad', sans-serif;
+    
 }
 
 .logo {

@@ -101,11 +101,14 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
   - Page histoire & engagements (Présentation)
   - Coordination des pages
   - Finitions globales
+  - Déploiement sur GitLab
+  - Déploiement sur BitBucket
 - Bornert Laura
   - Page Projets Futurs
 - Bertin Jolan
   - Page Economie
   - NavBar + footer
+  - création du modèle html et css des pages (autre que la page d'accueil)
 
 
 ## Contributeurs
